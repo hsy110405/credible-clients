@@ -1,16 +1,18 @@
 import numpy as np
 
-
 class CreditModel:
+
     def __init__(self):
         """
         Instantiates the model object, creating class variables if needed.
         """
 
         # TODO: Initialize your model object.
-        pass
+        from xgboost import XGBClassifier
+        self.classifier = XGBClassifier()
 
     def fit(self, X_train, y_train):
+
         """
         Fits the model based on the given `X_train` and `y_train`.
 
@@ -19,7 +21,7 @@ class CreditModel:
         """
 
         # TODO: Fit your model based on the given X and y.
-        pass
+        self.classifier.fit(X_train,y_train)
 
     def predict(self, X_test):
         """
@@ -30,4 +32,5 @@ class CreditModel:
         """
 
         # TODO: Predict on `X_test` based on what you learned in the fit phase.
-        return np.random.randint(2, size=len(X_test))
+
+        return self.classifier.predict(X_test)
