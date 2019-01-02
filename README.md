@@ -63,9 +63,6 @@ accuracy of probability of default of credit card clients, https://bradzzz.gitbo
 
 2.Build your First Deep Learning Neural Network Model using Keras in Python, https://medium.com/@pushkarmandot/build-your-first-deep-learning-neural-network-model-using-keras-in-python-a90b5864116d
 
-Give a brief summary of the approach you took, and why! Include your model's
-accuracy/precision/recall scores as well!
-
 
 ## Data Format
 
