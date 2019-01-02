@@ -38,6 +38,31 @@ _Good luck, and have fun with this_! :rocket:
 
 ## Write-up
 
+### Summary
+
+According to the paper ("The comparisons of data mining techniques for the predictive
+accuracy of probability of default of credit card clients", I-Cheng Yeh, Che-hui Lien) which analyzed the same data,
+the research shows that the forecasting model produced by artificial neural network has the highest coefficient of determination.
+Thus, I used neural network model using Keras to predict the given data. In addition, I used Gradient Boosting framework using XGBoost which is a scalable tree boosting system and it is faster than Scikit-learn GradienBoostingClassifier.
+The result shows that XGBoost method estimates the real probability of default sliglty better than Keras.
+   
+### Result
+
+1.Neural Network Model using Keras
+
+- Accuracy: 81.947%, Precision: 67.127%, Recall: 32.883%
+
+2.Gradient Boosting framework using XGBoost 
+
+- Accuracy: 82.013%, Precision: 66.088%, Recall: 35.095%
+
+###Sources
+
+1.The comparisons of data mining techniques for the predictive
+accuracy of probability of default of credit card clients, https://bradzzz.gitbooks.io/ga-dsi-seattle/content/dsi/dsi_05_classification_databases/2.1-lesson/assets/datasets/DefaultCreditCardClients_yeh_2009.pdf
+
+2.Build your First Deep Learning Neural Network Model using Keras in Python, https://medium.com/@pushkarmandot/build-your-first-deep-learning-neural-network-model-using-keras-in-python-a90b5864116d
+
 Give a brief summary of the approach you took, and why! Include your model's
 accuracy/precision/recall scores as well!
 
