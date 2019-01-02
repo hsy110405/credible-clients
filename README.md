@@ -56,7 +56,7 @@ The result shows that XGBoost method estimates the real probability of default s
 
 - Accuracy: 82.013%, Precision: 66.088%, Recall: 35.095%
 
-###Sources
+### Sources
 
 1.The comparisons of data mining techniques for the predictive
 accuracy of probability of default of credit card clients, https://bradzzz.gitbooks.io/ga-dsi-seattle/content/dsi/dsi_05_classification_databases/2.1-lesson/assets/datasets/DefaultCreditCardClients_yeh_2009.pdf
