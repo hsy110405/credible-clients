@@ -23,21 +23,6 @@ and [`scikit-learn`]. After invoking **`python main.py`** from your shell of
 choice, you should see the model accuracy printed: approximately 50% if you
 haven't changed anything, since the provided model predicts completely randomly.
 
-## Instructions
-
-Here are the things you should do:
-
-1. Fork this repo, so we can see your code!
-2. Install the required libraries using `pip install -r requirements.txt` (if needed).
-3. Ensure you see the model's accuracy/precision/recall scores printed when running `python main.py`.
-4. Replace the placeholder code in [`model.py`](model.py) with your own model.
-5. Fill in the "write-up" section below in your forked copy of the README.
-
-_Good luck, and have fun with this_! :rocket:
-
-
-## Write-up
-
 ### Summary
 
 According to the paper ("The comparisons of data mining techniques for the predictive
